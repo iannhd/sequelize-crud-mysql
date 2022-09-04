@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
         description: {
             type: DataTypes.TEXT
         },
-    })
+    }, {timestamps: true})
 
     return Review
 

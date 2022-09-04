@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 
 const router = require('./routes/productRoute') 
 
+// Product Route
 app.use('/api/products', router)
 
 
